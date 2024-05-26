@@ -1,75 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portada</title>
-  <style>
-    body {
-      font-family: 'Arial', sans-serif;
-      margin: 0;
-      padding: 0;
-      background: url('https://www.desdelared.com.mx/universidades/noticias/2021/02-fotos/02-iea/0826-ita.jpg') center/cover no-repeat;
-    }
-
-    header {
-      
-      color: #ffffff;
-      text-align: center;
-      padding: 2em 0;
-    }
-
-    header h1 {
-      margin: 0;
-    }
-
-    header p {
-      margin: 10px 0;
-      font-size: 1.2em;
-    }
-
-    section {
-      text-align: center;
-      padding: 3em;
-    }
-
-   
-    footer {
-      background-color: #343a40;
-      color: #fff;
-      text-align: center;
-      padding: 1em;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-    }
-
-    img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-    .infant-image {
-      display: none;
-      max-width: 100px;
-      height: auto;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      margin: 10px auto;
-    }
-    #name-link {
-      text-decoration: none;
-      color: inherit;
-      cursor: pointer;
-    }
-
-
-    #name-link:hover {
-      text-decoration: underline;
-    }
-  </style>
 </head>
+
 <body>
 
   <header>
@@ -81,11 +18,13 @@
     <p>UNIDAD 5 CLOUD COMPUTING</p>
     <p>ALUMNOS: </p>
     <P>DANIELA REYES RUVALCABA - 21150385</p>
-      <P>KARLA MARIANA VALDEZ VELASCO - 20151620</p>
-        <p id="name-link" onclick="toggleImage()">ISAÍAS SÁNCHEZ MARTÍNEZ - 21150409</p>
-    <img id="infant-image" class="infant-image" src="https://lh3.googleusercontent.com/a/ACg8ocIJP0i3aAkrF78RuygUqBeodoxqyG54RYz-Byi6whhpZ7KhKHw=s360-c-no" alt="Isaías Sánchez Martínez">
-          <P>CHRISTOPHER MARTÍNEZ MARTÍNEZ - 21150403</p>
-            <P>EMILIANO NERI CABRERA - 21150404</p>
+    <P>KARLA MARIANA VALDEZ VELASCO - 20151620</p>
+    <p id="name-link" onclick="toggleImage()">ISAÍAS SÁNCHEZ MARTÍNEZ - 21150409</p>
+    <img id="infant-image" class="infant-image"
+      src="https://lh3.googleusercontent.com/a/ACg8ocIJP0i3aAkrF78RuygUqBeodoxqyG54RYz-Byi6whhpZ7KhKHw=s360-c-no"
+      alt="Isaías Sánchez Martínez">
+    <P>CHRISTOPHER MARTÍNEZ MARTÍNEZ - 21150403</p>
+    <P>EMILIANO NERI CABRERA - 21150404</p>
     <p>25/05/2024</p>
     <br>
     <br>
@@ -94,10 +33,10 @@
   </header>
 
   <footer>
-    
+
     <p>&copy; Av. Adolfo López Mateos #1801 Ote. Fracc. Bona Gens, C.P. 20255 Aguascalientes, Ags., México.</p>
   </footer>
-  
+
   <script>
     function toggleImage() {
       var img = document.getElementById('infant-image');
@@ -107,4 +46,5 @@
 
 
 </body>
+
 </html>
