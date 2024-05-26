@@ -65,7 +65,7 @@ body {
     }
 
     button {
-      background-color: #007BFF; /* Color azul */
+      background-color: #007BFF; /* Color azul  */
       color: white;
       border: none;
       padding: 5px 10px;
@@ -79,5 +79,7 @@ body {
     }
     
     button:hover {
-      background-color: #0056b3; /* Azul más oscuro al pasar el ratón */
+      background-color: #0056b3; /* Azul más oscuro al pasar el ratón a */
     }
+
+    /* fondo  */
